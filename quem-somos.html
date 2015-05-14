@@ -137,7 +137,7 @@
       <div class="container-fluid fale-conosco margem-topo">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-6 margem-topo">
               <h1>Fale Conosco</h1>
               <p>Ces eicti odit, culles simagnimus, comni assit dolupta iniende bissequ atusantia quo tem niaerci psanimusae pa perep.</p>
               <p>sevira@arives.com</br>
@@ -145,7 +145,13 @@
               <p>Rua Se vira para achar, 123</br>
               CEP 123456-000</p>
             </div>
-            <div class="col-xs-12 col-md-6">
+            <div class="col-xs-12 col-md-6 margem-topo">
+              <form action="../lib/mailer.php" class="contato" id="form-contato">
+                <input type="text" value="Nome"></input></br>
+                <input type="email" value="E-mail"></input></br>
+                <textarea id="mensagem">Mensagem</textarea></br>
+                <input id="enviar" type="submit" value="Enviar"></input>
+              </form>
             </div>
           </div>
         </div>

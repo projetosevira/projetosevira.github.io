@@ -225,3 +225,34 @@ h1 {
 	padding-right: 70px;
 	margin-top: 40px;
 }
+
+form.contato {
+}
+
+form.contato > input {
+	font-family: 'Open-Sans', sans-serif;
+	color: #666;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+form.contato > input:nth-child(1) {
+	margin-top: 60px;
+}
+
+form > #mensagem {
+	font-family: 'Open-Sans', sans-serif;
+	color: #666;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	min-height: 200px;
+	border: 2px inset;
+}
+
+form > #enviar {
+	
+}
+
+
