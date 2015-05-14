@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="js" lang="pt-br">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,6 +20,8 @@
     <![endif]-->
   </head>
   <body>
+
+    <div id="preloader"></div>
 
 <!-- NAVEGAÇÃO -->
 <!-- NAVEGAÇÃO -->
@@ -163,5 +165,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      jQuery(document).ready(function($) {  
+
+        // site preloader -- also uncomment the div in the header and the css style for #preloader
+        $(window).load(function(){
+          $('#preloader').fadeOut('slow',function(){$(this).remove();});
+        });
+
+      });
+      </script>
+
   </body>
 </html>
