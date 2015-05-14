@@ -20,6 +20,13 @@
   </head>
   <body>
 
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+          <img src="img/logo1.png"/>&nbsp;
+        </div>
+    </div>
+
     <div class="container">
       <div class="row">
         <ul class="nav nav-tabs header1">
@@ -47,6 +54,17 @@ erae. Nem que mil initatus senit quis sunt et repro que nobis iaeserum vel eos.<
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+        $(window).load(function() { // makes sure the whole site is loaded
+          $('#status').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(350).css({'overflow':'visible'});
+        })
+      //]]>
+    </script>
 
   </body>
 </html>
