@@ -9,10 +9,14 @@ img {
 	max-width: 100%;
 }
 
-h1 {
+h1, h2, h3 {
 	text-transform: uppercase;
 	font-family: 'Lato', sans-serif;
 	font-weight: 700;
+}
+
+p {
+	font-family: 'Open-Sans', sans-serif;
 }
 
 /* PRELOADER STYLES */
@@ -173,6 +177,10 @@ h1 {
 	bottom: 0px;
 }
 
+ul > li > ul, ul > ul {
+	padding-left: 20px;
+}
+
 .menu-footer ul {
 	list-style: none;
 }
@@ -192,6 +200,7 @@ h1 {
 .copyright {
 	margin-top: 40px;
 	float: right;
+	font-family: 'Open-Sans', sans-serif;
 }
 
 .imagem-time {
@@ -251,8 +260,158 @@ form > #mensagem {
 	border: 2px inset;
 }
 
-form > #enviar {
-	
+form > #enviar, #enviar-pergunta {
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #215758;
+	float:right;
+	width: 30%;
+	border: none;
+}
+
+.background-menu-profissoes {
+	background-color: #358B8D;
+	border-top: 8px solid #fff;
+}
+
+.menu-profissoes {
+	width: 100%;
+}
+
+.menu-profissoes > li {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	width: 16.66%;
+}
+
+.menu-profissoes > li > a {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menu-profissoes > li > a:hover {
+	color: #000;
+}
+
+.fundo {
+	min-height: 350px;
+	padding: 30px;
+}
+
+.fundo.arquitetura {
+	background-image: url("../img/teste.jpg");
+}
+
+.fundo.audiovisual {
+	background-image: url("../img/teste.jpg");
+}
+
+.fundo.moda {
+	background-image: url("../img/teste.jpg");
+}
+
+.fundo.design {
+	background-image: url("../img/teste.jpg");
+}
+
+.fundo.publicidade {
+	background-image: url("../img/teste.jpg");
+}
+
+.fundo.fotografia {
+	background-image: url("../img/teste.jpg");
+}
+
+.fundo > div > div > div > img {
+	float: right;
+	margin-right: 20%;
 }
 
 
+.videos {
+	background-color: #FF3333;
+	padding: 20px 0;
+	border-bottom: 7px solid #222;
+}
+
+#fotografia > div.container-flex.videos {
+	border-bottom: none;
+}
+
+.videos > div > div > div > h1 {
+	margin: 10px 0 20px;
+	color: #fff;
+	font-weight: 800;
+}
+
+.entrevista {
+	background-color: #000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 50px;
+	color: #DADADA;
+	font-family: 'Open-Sans', sans-serif;
+}
+
+.video-entrevista {
+	width: 100%;
+	height: 40em;
+	background-color: #fff;
+}
+
+.entrevista > .row > div > p {
+	color: #DADADA;
+	margin-top: 20px;
+}
+
+.entrevista > .row > div > h1 {
+	color: #DADADA;
+}
+
+ul.perguntas {
+	list-style: none;
+	padding-left: 0;
+	display: inline-block;
+}
+
+ul.perguntas > li {
+	margin-top: 20px;
+}
+
+ul.perguntas > li > .fa {
+	color: #D50000;
+	position: absolute;
+	margin-top: 3px;
+}
+
+ul.perguntas > li > .fa.respondida {
+	color: #008040;
+}
+
+ul.perguntas > li > p {
+	margin-left: 30px;
+}
+
+.entrevista > .row > div > h3 {
+	background-color: #D50000;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#pergunta {
+	width: 100%;
+	height: 150px;
+	padding: 20px;
+	color: #333;
+}
+
+#enviar-pergunta {
+	min-height: 50px;
+}
+
+.sidebar-dicas > .social-time {
+	margin-bottom: 30px;
+}
