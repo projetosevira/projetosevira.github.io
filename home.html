@@ -12,6 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilos.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/component.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -108,94 +109,112 @@
       </div>
       <div class="row">
         <div class="col-xs-12 col-md-8">
-          <div class="row">
-            <div class="col-xs-12 col-sm-6 listagem-home">
-              <a class="" href="#"><img src="img/pessoa1.jpg">
-                <div class="caption-home">
-                  <h4>Karina Freitas – AV</h4>
-                </div></a>
-              </div>
-              <div class="col-xs-12 col-sm-6 listagem-home">
-                <a class="" href="#"><img src="img/pessoa2.jpg">
-                  <div class="caption-home">
-                    <h4>Roberto Barbosa – PP</h4>
-                  </div></a>
-                </div>
-                <div class="col-xs-12 col-sm-6 listagem-home">
-                  <a class="" href="#"><img src="img/pessoa3.jpg">
-                    <div class="caption-home">
-                      <h4>Marilia Souza – MD</h4>
-                    </div></a>
-                  </div>
-                  <div class="col-xs-12 col-sm-6 listagem-home">
-                    <a class="" href="#"><img src="img/pessoa4.jpg">
-                      <div class="caption-home">
-                        <h4>Gustavo Guimaraes – FT</h4>
-                      </div></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-md-4 sidebar-trampos margem-topo">
-                  <img src="https://camo.githubusercontent.com/3d2754b5277a9420151f5a39b164af2a59332a1f/687474703a2f2f7472616d706f732e636f2f6d656469612f573173695a694973496a49774d5451764d444d764d5463764d5456664d544a664d445a664d6a4977583364705a47646c6446394354316866566b464851564d75616e426e496c31642f7769646765742d424f582d56414741532e6a7067"/>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-xs-12 margem-topo">
-                  <img src="http://www.inegi.org.mx/eventos/2011/CNGMA/img/BANNER-HORIZONTAL.jpg"/>
-                </div>
-              </div>
-            </div>
-            <!-- FOOTER COMEÇA AQUI -->
-            <!-- FOOTER COMEÇA AQUI -->
-            <div class="container-fluid footer">
-              <div class="container">
-                <div class="col-xs-12 col-md-2 menu-footer">
-                  <ul>
-                    <li>Home</li>
-                    <li>Quem somos</li>
-                    <li>Profissões
-                      <ul>
-                        <li>Arquitetura</li>
-                        <li>AudioVisual</li>
-                        <li>Moda</li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-xs-12 col-md-3 menu-footer">
-                  <ul>
-                    <ul>
-                      <li>Design</li>
-                      <li>Publicidade e Propaganda</li>
-                      <li>Fotografia</li>
-                    </ul>
-                    <li>Dicas</li>
-                    <li>Sua Histórias</li>
-                  </ul>
-                </div>
-                <div class="col-xs-12 col-md-7 social-footer">
-                  <a href="http://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
-                  <a href="http://facebook.com/sevira.art" target="_blank"><i class="fa fa-facebook"></i></a>
-                  <a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-                </div>
-                <div class="copyright">
-                  <p>© 2015 . Sevira! . Todos os direitos reservados.</p>
-                </div>
-              </div>
-            </div>
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="js/bootstrap.min.js"></script>
-            <!-- Preloader -->
-            <script type="text/javascript">
-            //<![CDATA[
-            $(window).load(function() { // makes sure the whole site is loaded
-            $('#status').fadeOut(); // will first fade out the loading animation
-            $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(350).css({'overflow':'visible'});
-            })
-            //]]>
-            </script>
-          </body>
-        </html>
+          <ul class="grid cs-style-3">
+            <li class="col-xs-12 col-sm-6 listagem-home">
+              <figure>
+                <img src="img/pessoa1.jpg" alt="img01">
+                <figcaption>
+                <h3>Karina Freitas</h3>
+                <span>Audiovisual</span>
+                <a href="#">Ver Entrevista</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="col-xs-12 col-sm-6 listagem-home">
+              <figure>
+                <img src="img/pessoa2.jpg" alt="img01">
+                <figcaption>
+                <h3>Roberto Barbosa</h3>
+                <span>Publicidade</span>
+                <a href="#">Ver Entrevista</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="col-xs-12 col-sm-6 listagem-home">
+              <figure>
+                <img src="img/pessoa3.jpg" alt="img01">
+                <figcaption>
+                <h3>Marília Souza</h3>
+                <span>Moda</span>
+                <a href="#">Ver Entrevista</a>
+                </figcaption>
+              </figure>
+            </li>
+            <li class="col-xs-12 col-sm-6 listagem-home">
+              <figure>
+                <img src="img/pessoa4.jpg" alt="img01">
+                <figcaption>
+                <h3>Gustavo Guimarães</h3>
+                <span>Fotografia</span>
+                <a href="#">Ver Entrevista</a>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-4 sidebar-trampos margem-topo">
+          <img src="https://camo.githubusercontent.com/3d2754b5277a9420151f5a39b164af2a59332a1f/687474703a2f2f7472616d706f732e636f2f6d656469612f573173695a694973496a49774d5451764d444d764d5463764d5456664d544a664d445a664d6a4977583364705a47646c6446394354316866566b464851564d75616e426e496c31642f7769646765742d424f582d56414741532e6a7067"/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 margem-topo">
+          <img src="http://www.inegi.org.mx/eventos/2011/CNGMA/img/BANNER-HORIZONTAL.jpg"/>
+        </div>
+      </div>
+    </div>
+    <!-- FOOTER COMEÇA AQUI -->
+    <!-- FOOTER COMEÇA AQUI -->
+    <div class="container-fluid footer">
+      <div class="container">
+        <div class="col-xs-12 col-md-2 menu-footer">
+          <ul>
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Profissões
+              <ul>
+                <li>Arquitetura</li>
+                <li>AudioVisual</li>
+                <li>Moda</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-3 menu-footer">
+          <ul>
+            <ul>
+              <li>Design</li>
+              <li>Publicidade e Propaganda</li>
+              <li>Fotografia</li>
+            </ul>
+            <li>Dicas</li>
+            <li>Sua Histórias</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-7 social-footer">
+          <a href="http://instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="http://facebook.com/sevira.art" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="http://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+        <div class="copyright">
+          <p>© 2015 . Sevira! . Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/toucheffects.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <!-- Preloader -->
+    <script type="text/javascript">
+    //<![CDATA[
+    $(window).load(function() { // makes sure the whole site is loaded
+    $('#status').fadeOut(); // will first fade out the loading animation
+    $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+    $('body').delay(350).css({'overflow':'visible'});
+    })
+    //]]>
+    </script>
+  </body>
+</html>
