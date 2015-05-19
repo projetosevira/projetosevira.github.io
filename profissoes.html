@@ -360,6 +360,39 @@
         $(document).ready(function(){
           $(".owl-carousel").owlCarousel();
         });
+
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop:true,
+            margin:10,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            nav:true,
+            dots: false,
+            lazyLoad: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:2
+                },            
+                960:{
+                    items:3
+                },
+                1200:{
+                    items:3
+                }
+            },
+            // navText:[&#x27;próximo&#x27;,&#x27;anterior&#x27;]
+        });
+        $('.play').on('click',function(){
+            owl.trigger('autoplay.play.owl',[1000])
+        })
+        $('.stop').on('click',function(){
+            owl.trigger('autoplay.stop.owl')
+        })
     </script>
 
   </body>
