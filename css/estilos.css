@@ -62,7 +62,8 @@ p {
 .texto1 {
 	width: 75%;
 	padding: 40px;
-	font-size: 18px;
+	font-size: 15px;
+	font-weight: 400;
 }
 
 .botao1 {
