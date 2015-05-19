@@ -303,27 +303,27 @@ form > #enviar, #enviar-pergunta {
 }
 
 .fundo.arquitetura {
-	background-image: url("../img/teste.jpg");
+	background-image: url("../img/teste.png");
 }
 
 .fundo.audiovisual {
-	background-image: url("../img/teste.jpg");
+	background-image: url("../img/teste.png");
 }
 
 .fundo.moda {
-	background-image: url("../img/teste.jpg");
+	background-image: url("../img/teste.png");
 }
 
 .fundo.design {
-	background-image: url("../img/teste.jpg");
+	background-image: url("../img/teste.png");
 }
 
 .fundo.publicidade {
-	background-image: url("../img/teste.jpg");
+	background-image: url("../img/publicidadedoodle.png");
 }
 
 .fundo.fotografia {
-	background-image: url("../img/teste.jpg");
+	background-image: url("../img/teste.png");
 }
 
 .fundo > div > div > div > img {
@@ -336,6 +336,14 @@ form > #enviar, #enviar-pergunta {
 	background-color: #FF3333;
 	padding: 20px 0;
 	border-bottom: 7px solid #222;
+}
+
+.slider-videos {
+	
+}
+
+.slider-videos > li {
+
 }
 
 #fotografia > div.container-flex.videos {
