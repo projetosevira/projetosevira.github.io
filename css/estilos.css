@@ -392,8 +392,9 @@ ul.perguntas > li > .fa.respondida {
 	color: #008040;
 }
 
-ul.perguntas > li > p {
+ul.perguntas > li > h3 {
 	margin-left: 30px;
+	font-size: 14px;
 }
 
 .entrevista > .row > div > h3 {
