@@ -180,6 +180,7 @@ p {
 	padding: 25px;
 	border-top: solid 5px #358B8D;
 	bottom: 0px;
+	z-index: 1 !important;
 }
 
 ul > li > ul, ul > ul {
@@ -540,6 +541,10 @@ form.suahistoria > input, form.suahistoria > textarea {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
+}
+
+.sidebar-trampos {
+padding-left: 15px;
 }
 }
 
