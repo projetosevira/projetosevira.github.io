@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700);
 
 body {
@@ -543,3 +544,454 @@ form.suahistoria > input, form.suahistoria > textarea {
 }
 }
 
+=======
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700);
+
+body {
+	font-family: "Open Sans", sans-serif;
+	overflow: hidden;
+}
+
+img {
+	max-width: 100%;
+}
+
+h1, h2, h3 {
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: 'Open-Sans', sans-serif;
+}
+
+/* PRELOADER STYLES */
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:99; /* makes sure it stays on top */
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../img/loader-sevira.gif); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center 120px;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
+#status > img {
+	top: 7em;
+}
+
+/* FINISH PRELOADER STYLES */
+
+
+
+.video-primeira {
+	height: 660px;
+	background-color: #D03641;
+}
+
+.header1 {
+	display: inline-block;
+}
+
+.texto1 {
+	width: 75%;
+	padding: 40px;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.botao1 {
+	background-color: #358B8D;
+	border-radius: 0px;
+	font-weight: 700;
+	font-size: 21px;
+	color: #fff;
+	float: right;
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+
+.botao1-2 {
+	background-color: #358B8D;
+	border-radius: 0px;
+	font-weight: 700;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 21px;
+	color: #fff;
+	padding: 10px 40px;
+	margin-top: 30px;
+}
+
+.navbar-sevira {
+	background-color: #000;
+}
+
+.logo-bar {
+	padding: 0px !important;
+	margin-right: 30px;
+}
+
+.logo-bar > img {
+	height: 120px;
+	width: auto;
+}
+
+.logo-collapsed > img {
+	position: absolute;
+	height: 50px
+}
+
+.navbar-sevira > div > nav > div > div > ul > li > a {
+	padding: 50px 30px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	height: 120px;
+	font-family: "Lato", sans-serif;
+}
+
+.navbar-sevira > div > nav > div > div > ul > li > a:hover {
+	color: #000;
+}
+
+.navbar-sevira > div > nav > div > div > ul > li.ativo {
+	background-color: #358B8D;
+}
+
+.banner-home {
+	margin-top: 30px;
+}
+
+.secao-home {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: "Lato", sans-serif;
+	margin: 30px 0px -10px 0px;
+	padding: 5px;
+	border-bottom: solid 2px #999;
+}
+
+.margem-topo {
+	margin-top: 30px;
+}
+
+.listagem-home {
+	margin-top: 30px;
+	padding-left: 0;
+}
+
+.sidebar-trampos {
+	padding-left: 0;
+}
+
+.footer {
+	margin-top: 20px;
+	background-color: #000;
+	color: #fff;
+	padding: 25px;
+	border-top: solid 5px #358B8D;
+	bottom: 0px;
+}
+
+ul > li > ul, ul > ul {
+	padding-left: 20px;
+}
+
+.menu-footer ul {
+	list-style: none;
+}
+
+.menu-footer ul ul {
+	list-style: none;
+	font-size: 11px;
+}
+
+.social-footer > a, .social-footer > i {
+	font-size: 40px;
+	margin-left: 30px;
+	float: right;
+	color: #fff;
+}
+
+.copyright {
+	margin-top: 40px;
+	float: right;
+	font-family: 'Open-Sans', sans-serif;
+}
+
+.imagem-time {
+	margin-top: 20px;
+}
+
+.nome-time {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 700
+}
+
+.social-time a {
+	font-size: 30px;
+	color: #000;
+	margin-left: 10px;
+}
+
+.texto-time {
+	font-size: 12px;
+}
+
+.fale-conosco {
+	background-color: #45c17f;
+	padding-bottom: 20px;
+	margin-bottom: -20px;
+}
+
+.fale-conosco p {
+	padding-right: 70px;
+	margin-top: 40px;
+}
+
+form.contato {
+}
+
+form.contato > input {
+	font-family: 'Open-Sans', sans-serif;
+	color: #666;
+	padding: 10px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+form.contato > input:nth-child(1) {
+	margin-top: 60px;
+}
+
+form > #mensagem {
+	font-family: 'Open-Sans', sans-serif;
+	color: #666;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	min-height: 200px;
+	border: 2px inset;
+}
+
+form > #enviar, #enviar-pergunta {
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #215758;
+	float:right;
+	width: 30%;
+	border: none;
+}
+
+.background-menu-profissoes {
+	background-color: #358B8D;
+	border-top: 8px solid #fff;
+}
+
+.menu-profissoes {
+	width: 100%;
+}
+
+.menu-profissoes > li {
+	font-family: 'Open-Sans', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	width: 16.66%;
+}
+
+.menu-profissoes > li > a {
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.menu-profissoes > li > a:hover {
+	color: #000;
+}
+
+.fundo {
+	min-height: 350px;
+	padding: 30px;
+}
+
+.fundo.arquitetura {
+	background-image: url("../img/teste.png");
+}
+
+.fundo.audiovisual {
+	background-image: url("../img/teste.png");
+}
+
+.fundo.moda {
+	background-image: url("../img/teste.png");
+}
+
+.fundo.design {
+	background-image: url("../img/teste.png");
+}
+
+.fundo.publicidade {
+	background-image: url("../img/publicidadedoodle.png");
+}
+
+.fundo.fotografia {
+	background-image: url("../img/teste.png");
+}
+
+.fundo > div > div > div > img {
+	float: right;
+	margin-right: 20%;
+}
+
+
+.videos {
+	background-color: #FF3333;
+	padding: 20px 0;
+	border-bottom: 7px solid #222;
+}
+
+.slider-videos {
+	
+}
+
+.slider-videos > li {
+
+}
+
+#fotografia > div.container-flex.videos {
+	border-bottom: none;
+}
+
+.videos > div > div > div > h1 {
+	margin: 10px 0 20px;
+	color: #fff;
+	font-weight: 800;
+}
+
+.entrevista {
+	background-color: #000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 50px;
+	color: #DADADA;
+	font-family: 'Open-Sans', sans-serif;
+}
+
+.video-entrevista {
+	width: 100%;
+	height: 40em;
+	background-color: #fff;
+}
+
+.entrevista > .row > div > p {
+	color: #DADADA;
+	margin-top: 20px;
+}
+
+.entrevista > .row > div > h1 {
+	color: #DADADA;
+}
+
+ul.perguntas {
+	list-style: none;
+	padding-left: 0;
+	display: inline-block;
+}
+
+ul.perguntas > li {
+	margin-top: 20px;
+}
+
+ul.perguntas > li > .fa {
+	color: #D50000;
+	position: absolute;
+	margin-top: 3px;
+}
+
+ul.perguntas > li > .fa.respondida {
+	color: #008040;
+}
+
+ul.perguntas > li > h3 {
+	margin-left: 30px;
+	font-size: 14px;
+}
+
+.entrevista > .row > div > h3 {
+	background-color: #D50000;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+#pergunta {
+	width: 100%;
+	height: 150px;
+	padding: 20px;
+	color: #333;
+}
+
+#enviar-pergunta {
+	min-height: 50px;
+}
+
+.sidebar-dicas > .social-time {
+	margin-bottom: 30px;
+}
+
+.owl-theme .owl-controls .owl-nav [class*=owl-] {
+  color: #222;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #d6d6d6;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #869791;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #d6d6d6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+.owl-theme .owl-controls, owl-controls .owl-dots {
+  margin-top: 10px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+>>>>>>> origin/master
