@@ -283,6 +283,10 @@ form > #enviar, #enviar-pergunta {
 	z-index: 100;
 }
 
+.hidden-xs.background-menu-profissoes {
+	position: relative;
+}
+
 .menu-profissoes {
 	width: 100%;
 	z-index: 100;
