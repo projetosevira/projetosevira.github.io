@@ -280,10 +280,12 @@ form > #enviar, #enviar-pergunta {
 .background-menu-profissoes {
 	background-color: #358B8D;
 	border-top: 8px solid #fff;
+	z-index: 100;
 }
 
 .menu-profissoes {
 	width: 100%;
+	z-index: 100;
 }
 
 #menu-profissoes {
@@ -310,6 +312,21 @@ form > #enviar, #enviar-pergunta {
 .fundo {
 	min-height: 350px;
 	padding: 30px;
+	z-index: 5;
+}
+
+.fundo > .container > .row > div > img {
+	position: absolute;
+	z-index: 5;
+	margin-top: -200px;
+	float: right;
+	margin-right: 20%;
+
+}
+
+.fundo.publicidade > .container > .row > div > img {
+	margin-right: 10%;
+
 }
 
 .fundo.arquitetura {
@@ -336,24 +353,21 @@ form > #enviar, #enviar-pergunta {
 	background-image: url("../img/fundo-fotografia.png");
 }
 
-.fundo > div > div > div > img {
-	float: right;
-	margin-right: 20%;
-}
 
-
-.videos {
+div.videos {
+	position: relative;
+	z-index: 10 !important;
 	background-color: #FF3333;
 	padding: 20px 0;
 	border-bottom: 7px solid #222;
 }
 
 .slider-videos {
-	
+	z-index: 10 !important;
 }
 
 .slider-videos > li {
-
+	z-index: 10 !important;
 }
 
 #fotografia > div.container-flex.videos {
@@ -522,6 +536,12 @@ form.suahistoria > input, form.suahistoria > textarea {
 	right: 48px;
 }
 
+@media screen and (max-width: 960px) {
+	.fundo > .container > .row > div > img {
+	margin-top: 0px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.no-touch .cs-style-3 figure img,
 	.cs-style-3 figure.cs-hover img {
@@ -529,7 +549,7 @@ form.suahistoria > input, form.suahistoria > textarea {
 	-moz-transform: translateY(-50px);
 	-ms-transform: translateY(-50px);
 	transform: translateY(-50px);
-}
+	}
 	
 	.no-touch .cs-style-3 figure figcaption,
 	.cs-style-3 figure.cs-hover figcaption {
@@ -541,10 +561,14 @@ form.suahistoria > input, form.suahistoria > textarea {
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
-}
+	}
 
-.sidebar-trampos {
-padding-left: 15px;
-}
+	.sidebar-trampos {
+	padding-left: 15px;
+	}
+
+	.fundo > .container > .row > div > img {
+	margin-top: 0px;
+	}
 }
 
