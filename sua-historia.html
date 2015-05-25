@@ -94,10 +94,10 @@
         </div>
          <div class="col-xs-12 col-md-6">
           <form class="contato suahistoria" action="lib/mailer.php">
-            <input type="text" value="Nome"></br>
-            <input type="email" value="E-mail"></br>
-            <input type="text" value="Tel." style="width: 48%; margin-right: 4%"><input type="text" value="Cel." style="width: 48%"></br>
-            <textarea id="mensagem">Mensagem</textarea>
+            <input type="text" value="Nome" onfocus="if(this.value == 'Nome') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Nome'; }"></br>
+            <input type="email" value="E-mail" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }"></br>
+            <input type="text" value="Tel." style="width: 48%; margin-right: 4%"onfocus="if(this.value == 'Tel.') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Tel.'; }"><input type="text" value="Cel." style="width: 48%" onfocus="if(this.value == 'Cel.') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Cel.'; }"></br>
+            <textarea id="mensagem" onfocus="if(this.value == 'Mensagem') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Mensagem'; }">Mensagem</textarea>
             <input type="submit" value="Enviar" id="enviar" style="margin-bottom: 200px">
           </form>
         </div>

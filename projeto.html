@@ -152,9 +152,9 @@ SANTO AMARO, SÃO PAULO - SP, 04696-000</br>
             </div>
             <div class="col-xs-12 col-md-6 margem-topo">
               <form action="../lib/mailer.php" class="contato" id="form-contato">
-                <input type="text" value="Nome"></input></br>
-                <input type="email" value="E-mail"></input></br>
-                <textarea id="mensagem">Mensagem</textarea></br>
+                <input type="text" value="Nome" onfocus="if(this.value == 'Nome') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Nome'; }"></input></br>
+                <input type="email" value="E-mail" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }"></input></br>
+                <textarea id="mensagem" onfocus="if(this.value == 'Mensagem') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Mensagen'; }">Mensagem</textarea></br>
                 <input id="enviar" type="submit" value="Enviar"></input>
               </form>
             </div>

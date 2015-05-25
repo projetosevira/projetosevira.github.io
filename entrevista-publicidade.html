@@ -120,7 +120,7 @@
       <div class="col-xs-12 envie-pergunta">
         <form action="../lib/enviar-pergunta.php" id="form-pergunta">
           <h4>Envie a sua pergunta!</h4>
-          <textarea id="pergunta">Escreva sua pergunta aqui</textarea>
+          <textarea id="pergunta" onfocus="if(this.value == 'Escreva sua pergunta aqui') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Escreva sua pergunta aqui'; }">Escreva sua pergunta aqui</textarea>
           <input id="enviar-pergunta" type="submit" value="Enviar Pergunta"></input>
         </form>
       </div>
