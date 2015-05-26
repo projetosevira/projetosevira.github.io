@@ -115,6 +115,7 @@ p {
 	font-weight: 700;
 	height: 120px;
 	font-family: "Lato", sans-serif;
+	z-index: 5;
 }
 
 .navbar-sevira > div > nav > div > div > ul > li > a:hover {
@@ -323,7 +324,7 @@ form > #enviar, #enviar-pergunta {
 
 .fundo > .container > .row > div > img {
 	position: absolute;
-	z-index: 5;
+	z-index: 1;
 	margin-top: -200px;
 	float: right;
 	margin-right: 20%;
