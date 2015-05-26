@@ -548,7 +548,7 @@ form.suahistoria > input, form.suahistoria > textarea {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media handheld, screen and (max-width: 768px) {
 	.no-touch .cs-style-3 figure img,
 	.cs-style-3 figure.cs-hover img {
 	-webkit-transform: translateY(-50px);
