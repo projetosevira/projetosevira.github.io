@@ -530,6 +530,48 @@ form.suahistoria > input, form.suahistoria > textarea {
 	border-radius: 5px;
 }
 
+.placeholder-time {
+	position: relative;
+	width: 18.7em;
+	height: 18.7em;
+	border-radius: 10px;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.imagem-time.alexandre > div.placeholder-time {
+	background-image: url("../img/alexandre1.png");	
+}
+
+.imagem-time.alexandre > div.placeholder-time:hover {
+	background-image: url("../img/alexandre2.png");	
+}
+
+.imagem-time.bianca > div.placeholder-time {
+	background-image: url("../img/bianca1.png");	
+}
+
+.imagem-time.bianca > div.placeholder-time:hover {
+	background-image: url("../img/bianca2.png");	
+}
+
+.imagem-time.lucas > div.placeholder-time {
+	background-image: url("../img/lucas1.png");	
+}
+
+.imagem-time.lucas > div.placeholder-time:hover {
+	background-image: url("../img/lucas2.png");	
+}
+
+.imagem-time.jimmy > div.placeholder-time {
+	background-image: url("../img/jimmy1.png");	
+}
+
+.imagem-time.jimmy > div.placeholder-time:hover {
+	background-image: url("../img/jimmy2.png");	
+}
+
 /* Scroll up */
 #scrollup {
 	z-index: 10;
