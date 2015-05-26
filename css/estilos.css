@@ -556,6 +556,10 @@ form.suahistoria > input, form.suahistoria > textarea {
 	-ms-transform: translateY(-50px);
 	transform: translateY(-50px);
 	}
+
+	body > div.container-fluid.footer > div > div.col-xs-12.col-md-3.menu-footer > ul {
+		margin-top: -10px;
+	}
 	
 	.no-touch .cs-style-3 figure figcaption,
 	.cs-style-3 figure.cs-hover figcaption {
