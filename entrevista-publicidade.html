@@ -139,10 +139,13 @@
       <div class="col-xs-12">
         <h3><i class="fa fa-question-circle" style="margin-right: 10px;"></i>Perguntas</h3>
         <ul class="perguntas">
-          <li><i class="fa fa-circle respondida"></i><p>Fuga. Ducia quidem atame et earum in nes ex eos estinct atinis etur sunt quos eatem fuga. Quiatur re con rendici dempos adis dis sit rest offi cipsum harum ipsa ped excerum fugitatatis necestiberi conessim faceperiti iundandem re nis soluptur sundita sandae suntius doluptatus?</p></li>
-          <li><i class="fa fa-circle"></i><p>Fuga. Ducia quidem atame et earum in nes ex eos estinct atinis etur sunt quos eatem fuga. Quiatur re con rendici dempos adis dis sit rest offi cipsum harum ipsa ped excerum fugitatatis necestiberi conessim faceperiti iundandem re nis soluptur sundita sandae suntius doluptatus?</p></li>
-          <li><i class="fa fa-circle"></i><p>Fuga. Ducia quidem atame et earum in nes ex eos estinct atinis etur sunt quos eatem fuga. Quiatur re con rendici dempos adis dis sit rest offi cipsum harum ipsa ped excerum fugitatatis necestiberi conessim faceperiti iundandem re nis soluptur sundita sandae suntius doluptatus?</p></li>
-          <li><i class="fa fa-circle"></i><p>Fuga. Ducia quidem atame et earum in nes ex eos estinct atinis etur sunt quos eatem fuga. Quiatur re con rendici dempos adis dis sit rest offi cipsum harum ipsa ped excerum fugitatatis necestiberi conessim faceperiti iundandem re nis soluptur sundita sandae suntius doluptatus?</p></li>
+          <li onclick="showHide('resposta1')" style="cursor: pointer;"><i class="fa fa-circle respondida"></i><p>O que há de mais interessante na profissão de Publicitário?</p></li>
+          <li id="resposta1" class="hide"><p>É uma profissão que trabalha com inspiração, lida com assuntos diversos, com comportamento/sentimento humano (que é muito rico) e acaba sempre reconhecendo (mais cedo ou mais tarde) o talento.</p></li>
+          <li onclick="showHide('resposta2')" style="cursor: pointer;"><i class="fa fa-circle respondida"></i><p>Como se monta um bom portifólio?</p></li>
+          <li id="resposta2" class="hide"><p>O ideal é que tenha as peças que a pessoa realmente gosta. O portfólio é a carteira de identidade de quem o está mostrando. Não tente montar de uma maneira a agradar o outro. Mostre o que você considera ser o seu melhor.</p></li>
+          <li onclick="showHide('resposta3')" style="cursor: pointer;"><i class="fa fa-circle"></i><p>Quem quer ser diretor de arte deve estudar publicidade, design,
+arquitetura ou whatever?
+</p></li>
         </ul>
       </div>
     </div>
@@ -214,6 +217,23 @@
           $('body').delay(350).css({'overflow':'visible'});
         })
       //]]>
+    </script>
+
+    <script>
+    menu_status = new Array();
+    function showHide(theid){
+    if (document.getElementById) {
+    var switch_id = document.getElementById(theid);
+
+    if(menu_status[theid] != 'show') {
+    switch_id.className = 'show';
+    menu_status[theid] = 'show';
+    }else{
+    switch_id.className = 'hide';
+    menu_status[theid] = 'hide';
+    }
+    }
+    }
     </script>
 
   </body>
