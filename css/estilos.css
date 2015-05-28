@@ -431,6 +431,10 @@ ul.perguntas > li {
 	border: solid 1px #dedede;
 }
 
+ul.perguntas > li > p {
+	margin-left: 30px;
+}
+
 ul.perguntas > li > .fa {
 	color: #D50000;
 	position: absolute;
