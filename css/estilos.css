@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700);
 
+object[type^=application/gas-events] { display: none; }
+
 body {
 	font-family: "Open Sans", sans-serif;
 	overflow: hidden;
@@ -504,11 +506,6 @@ ul.perguntas > li > h3 {
 	-ms-transition: opacity 200ms ease;
 	-o-transition: opacity 200ms ease;
 	transition: opacity 200ms ease;
-}
-
-.owl-item:hover {
-	box-shadow: 5px 0px 10px;
-	
 }
 
 .bghistoria {
