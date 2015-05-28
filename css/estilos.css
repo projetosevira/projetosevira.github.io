@@ -426,6 +426,9 @@ ul.perguntas {
 
 ul.perguntas > li {
 	margin-top: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 1px #dedede;
 }
 
 ul.perguntas > li > .fa {
@@ -441,6 +444,9 @@ ul.perguntas > li > .fa.respondida {
 ul.perguntas > li > h3 {
 	margin-left: 30px;
 	font-size: 14px;
+	cursor: pointer;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .entrevista > .row > div > h3 {
@@ -573,6 +579,14 @@ form.suahistoria > input, form.suahistoria > textarea {
 
 .imagem-time.jimmy > div.placeholder-time:hover {
 	background-image: url("../img/jimmy2.png");	
+}
+
+.hide{
+display: none;
+}
+
+.show{
+display: block;
 }
 
 /* Scroll up */
