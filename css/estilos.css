@@ -183,6 +183,7 @@ p {
 	padding: 25px;
 	border-top: solid 5px #358B8D;
 	bottom: 0px;
+	width: 100%;
 	z-index: 1 !important;
 }
 
@@ -589,11 +590,28 @@ form.suahistoria > input, form.suahistoria > textarea {
 
 .hide{
 display: none;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
 }
 
 .show{
 display: block;
+transition-duration: 1s;
+transition-timing-function: ease-in-out;
 }
+
+.grid figcaption {
+	background-color: #191F32 !important;
+}
+
+.grid figcaption a {
+background: #FF3333 !important;
+}
+
+.grid figcaption span {
+	color: #FF3333 !important;
+}
+
 
 /* Scroll up */
 #scrollup {
