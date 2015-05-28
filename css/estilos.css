@@ -199,6 +199,11 @@ ul > li > ul, ul > ul {
 	font-size: 11px;
 }
 
+.menu-footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
 .social-footer > a, .social-footer > i {
 	font-size: 40px;
 	margin-left: 30px;
@@ -460,16 +465,18 @@ ul.perguntas > li > h3 {
 }
 
 .owl-theme .owl-controls .owl-nav [class*=owl-] {
-  color: #222;
-  font-size: 14px;
-  margin: 5px;
-  padding: 4px 7px;
-  background: #d6d6d6;
-  display: inline-block;
-  cursor: pointer;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+	color: #222;
+	font-size: 14px;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
+	padding: 5px;
+	background: #d6d6d6;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
@@ -507,7 +514,6 @@ ul.perguntas > li > h3 {
 	-o-transition: opacity 200ms ease;
 	transition: opacity 200ms ease;
 }
-
 .bghistoria {
 	background-image: url(../img/fundo-suahistoria.jpg);
 }
