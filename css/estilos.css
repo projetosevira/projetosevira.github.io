@@ -482,8 +482,8 @@ ul.perguntas > li > h3 {
 	margin: 5px;
 	width: 30px;
 	height: 30px;
-	padding: 5px;
-	background: #d6d6d6;
+	padding: 2px;
+	/*background: #d6d6d6;*/
 	display: inline-block;
 	cursor: pointer;
 	-webkit-border-radius: 3px;
